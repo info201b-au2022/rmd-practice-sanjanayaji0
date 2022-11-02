@@ -1,0 +1,26 @@
+---
+title: "Covid Cases and Deaths"
+author: "Sanjana Somayajula"
+output: html_document
+date: "2022-11-02"
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+source("/Users/sanjana/documents/info201/exercises/exercises-sanjanayaji0/rmd-practice-sanjanayaji0/source/analysis.R")
+```
+
+## Report on COVID Cases and Deaths
+
+From January 21, 2020 to October 31, 2022, there were a total of 97,258,022 
+COVID cases in the United States. There were 1,066,235 COVID-related deaths in 
+that time. 
+
+**Here is a chart depicting the US Covid Cases** 
+```{r}
+cases_plot 
+```
+
